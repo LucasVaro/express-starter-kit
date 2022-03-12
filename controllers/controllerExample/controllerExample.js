@@ -1,4 +1,4 @@
-const { ExampleModel } = require("../../models/example-model.js");
+const ExampleModel = require("../../models/example-model.js");
 
 module.exports = {
   ExampleController: async (req, res) => {
